@@ -1,0 +1,17 @@
+{
+  "name": "بازی سردار شهید حاج قاسم سلیمانی",
+  "short_name": "سردار سلیمانی",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "lang": "fa",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

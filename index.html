@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<title>بازی سردار شهید حاج قاسم سلیمانی</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+<meta name="theme-color" content="#000000">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
+</head>
+<body>
+
+<div id="intro">
+تولید شده توسط گروه مجازی پایگاه مقاومت بسیج شهید سالم
+</div>
+
+<div id="game-screen">
+  <div id="status">
+    ❤️ <span id="lives">3</span> | امتیاز: <span id="score">0</span>
+  </div>
+  <div id="timer">⏱ 15</div>
+  <div id="question"></div>
+  <div id="options">
+    <button id="btn0"></button>
+    <button id="btn1"></button>
+    <button id="btn2"></button>
+    <button id="btn3"></button>
+  </div>
+  <div id="message"></div>
+</div>
+
+<audio id="sound-correct" src="correct.mp3"></audio>
+<audio id="sound-wrong" src="wrong.mp3"></audio>
+<audio id="sound-finish" src="finish.mp3"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
